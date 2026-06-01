@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #0e0f11;
+  color: #d0d3dc;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.react-flow__node { font-family: 'JetBrains Mono', monospace; }
+.react-flow__background { background: #0e0f11; }
+.react-flow__edge-path { stroke-width: 1.5; }
+.react-flow__controls { background: #1a1c20; border: 0.5px solid #2e3038; border-radius: 8px; }
+.react-flow__controls-button { background: #1a1c20; border-bottom: 0.5px solid #2e3038; color: #9ba0ad; fill: #9ba0ad; }
+.react-flow__controls-button:hover { background: #252830; }
